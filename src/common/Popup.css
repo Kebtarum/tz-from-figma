@@ -1,0 +1,250 @@
+
+  .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    margin: auto;
+    background-color: rgba(50, 50, 50, 0.2);
+  }
+  
+  .popup__inner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    width: 1120px;
+    height: 490px;
+    left: 50%;
+    top: 50%;
+    margin-top: -245px;
+    margin-left: -560px;
+    background: #F2F2F2;
+    border-radius: 20px;
+  }
+
+  .popup__row {
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-between;
+  }
+
+  .popup__title {
+    width: 100%;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .popup__close {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    top: 50px
+  }
+
+  .popup__close:hover {
+    border-radius: 5px;
+    background: #E6E6E6;
+  }
+  .popup__close > img {
+    height: 18px;
+  }
+
+  .popup__item {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4F4F4F;
+  }
+  
+  .popup__item span {
+    padding-bottom: 5px;
+  }
+
+  .popup__input {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+  }
+
+  .popup__input_priority {
+    position: relative;
+  }
+
+  .popup__input_colors{
+    padding-left: 50px;
+  }
+
+  .circle-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top:31px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(56, 56, 56);
+  }
+
+  .popup__row_triple {
+    width: 100%;
+  }
+
+  .popup__input_discription textarea{
+    resize: none;
+    padding-top: 9px;
+    padding-left: 10px;
+    height: 124px ;
+  }
+
+  .popup__line {
+    margin: 0 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  .popup__row_button {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px
+  }
+
+  .popup__button {
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .popup__button:hover {
+    
+    background: #E6E6E6;
+  }
+
+  .popup__button_cancel {
+    border: 0;
+  }
+
+  .popup__button span{
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+  }
+  
+  @media (max-width: 1024px){
+    .popup__inner {
+      width: 984px;
+      height: 490px;
+      left: 50%;
+      top: 50%;
+      margin-top: -245px;
+      margin-left: -492px;
+     
+    }
+
+  }
+
+  @media (max-width: 320px){
+    .popup__inner {
+      width: 300px;
+      height: 512px;
+      left: 50%;
+      top: 50%;
+      margin-top: -256px;
+      margin-left: -150px;
+      border-radius: 5px;
+     
+    }
+    .popup__row {
+      flex-direction: column;
+      margin: 0 15px;
+      
+    }
+
+    .popup__title {
+      padding-top: 16px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    .popup__close {
+      height: 30px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 16px;
+      top: 36px
+    }
+    
+    .popup__item {
+      width: auto;
+      padding: 5px 0;
+    }
+
+    .popup__input {
+      border-radius: 5px;
+      
+    }
+
+    .popup__input_discription textarea{
+      resize: none;
+      padding-top: 9px;
+      padding-left: 10px;
+      height: 46px ;
+    }
+
+    .popup__line {
+      margin: 0 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #E0E0E0;
+    }
+
+
+  }
+  
+
+  .error {
+    border: solid red 2px;
+}

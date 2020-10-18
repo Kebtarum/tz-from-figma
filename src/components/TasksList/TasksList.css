@@ -1,0 +1,260 @@
+.taskslist {
+  /* padding: 40px 20px; */
+  margin: 40px 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+
+}
+
+
+/* .taskslist__table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  width: 100%;
+} */
+
+.taskslist__header-row{
+  height: 31px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskslist__row {
+  height: 47px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskslist__row_line {
+  border-top: 1px solid #C4C4C4;
+}
+
+.taskslist__cells {
+  display: flex;
+}
+
+.taskslist__cells_left {
+  flex-basis: 60%;
+}
+
+.taskslist__cells_right {
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.taskslist__header{
+  align-self: flex-end;
+}
+
+.taskslist__cell {
+  min-width: 30px;
+  
+}
+
+.taskslist__icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-box {
+  width: 30px;
+  height: 30px;
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* .taskslist__icon > img{
+  padding: 2px 0;
+} */
+
+.tasklist__cell_name {
+  /* min-width: 339px ; */
+  /* padding-left: 10px;
+  padding-top: 5px; */
+  padding: 5px 10px 0 10px;
+}
+
+.taskslist__name {
+  text-decoration-line: underline;
+}
+
+.tasklist__cell_name a {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+
+.taskslist__discription{
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+  
+} 
+
+.tasklist__cell_dedline {
+  
+  /* padding-left: 20px;
+  padding-top: 5px; */
+  min-width: 94px;
+  padding: 5px 10px 0 10px;
+}
+.tasklist__cell_dedline span {
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+}
+.tasklist__cell_priority {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 94px;
+  /* padding-left: 20px;
+  padding-top: 5px;  */
+  padding: 5px 10px 0 10px;
+  
+}
+
+.tasklist__cell_priority span {
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+}
+
+.tasklist__cell_icon {
+  
+  padding-left: 27px;
+  
+}
+
+@media (max-width: 320px){
+
+  .taskslist {
+    /* padding: 5px 10px; */
+    margin: 5px 10px;   
+  }
+  
+  .taskslist__header-row{
+    height: 22px;
+    padding: 5px 0;
+    
+  }
+
+  .taskslist__cells_left {
+    flex-basis: 50%;
+  }
+  
+  .taskslist__cells_right {
+    /* justify-content: unset; */
+    flex-grow: 50%;
+  }
+
+  .taskslist__row{
+    height: 38px;
+    padding: 5px 0;
+    
+  }
+
+  .taskslist__cell {
+    min-width: 24px;
+    
+  }
+
+  .icon-box {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+  
+  }
+  .icon-box_checkbox > img{
+    height: 19.2px;
+    width: auto;
+  }
+  .icon-box_edit > img{
+    height: 24px;
+    width: auto;
+  }
+
+  /* .taskslist__icon > img{
+    padding: 2px 0;
+  } */
+
+  .tasklist__cell_name {
+    min-width: 117px ;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 5px 0px 0 7px;
+  }
+
+  .taskslist__discription{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .tasklist__cell_dedline {
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 0px 0 7px;
+    min-width: 50px;
+    /* max-width: 50px; */
+  }
+
+  .tasklist__cell_dedline span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .tasklist__cell_priority {
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 0px 0 0px;
+    min-width: 72px;
+    /* max-width: 72px; */
+  }
+
+  .tasklist__cell_priority span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .tasklist__cell_icon {
+    padding: 0;
+  }
+
+  .taskslist__header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  /* .taskslist__cell{
+
+  } */
+
+  
+
+}

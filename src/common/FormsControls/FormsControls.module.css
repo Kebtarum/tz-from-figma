@@ -1,0 +1,44 @@
+
+.formControl{
+    padding: auto;
+    display: inline;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+    display: block;
+    border: solid red 2px;
+}
+
+.formControl.error small {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    color: red;
+    margin: 0;
+    /* font-size: 14px; */
+}
+
+.formSummeryErrorParent{
+    position: relative;
+}
+
+.formSummeryError {
+    position: absolute;   
+    top: 60px; 
+    left: 0;
+    border: red 2px solid;
+    padding: 5px;
+    color: red;
+}
+/* //////////////////////////Field type="file" */
+
+.fieldFileStyle {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+

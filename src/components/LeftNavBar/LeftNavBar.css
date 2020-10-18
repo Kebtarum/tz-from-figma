@@ -1,0 +1,156 @@
+
+
+.leftnavbar{
+  padding: 60px 15px;
+  background: #E6E6E6;
+  height: 100%;
+  min-width: 320px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+/* .itemInner {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+} */
+
+/* .leftnavbar__container {
+  
+  background-color: sandybrown;
+} */
+
+/* .leftnavbar__item {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  padding: 8px 13px;
+  align-items: center;
+} */
+
+.leftnavbar__item {
+  display: flex;
+  position: relative;
+  padding: 8px 10px 8px 50px;
+  align-items: center;
+}
+
+.leftnavbar__item:hover {
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+
+.leftnavbar__item:active {
+  background-color: #BDBDBD;
+  border-radius: 5px;
+}
+
+.leftnavbar__item .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  position: absolute;
+  left: 10px;
+
+}
+
+.icon-box_arrow-close{
+  transform: rotate(270deg);
+}
+
+/* .leftnavbar__item > img {
+  position: absolute;
+  left: 13px;
+} */
+
+.leftnavbar__item--active {
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+
+.leftnavbar__item_priority {
+  position: relative;
+  margin: 32px 0 10px 0;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.leftnavbar__subitems_close{
+  display: none;
+}
+
+.leftnavbar__item_subitem {
+  font-weight: normal;
+}
+
+
+@media (max-width: 320px){
+
+  .leftnavbar{
+    display: none;
+  }
+
+  .leftnavbar_open{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 5;
+
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .blackscreen{
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.2);
+  }
+
+  .leftnavbar__container{
+    width: 240px;
+    padding: 20px 10px;
+    background: #E6E6E6;
+  }
+
+  .leftnavbar__item {
+    display: flex;
+    position: relative;
+    padding: 8px 10px 8px 50px;
+    align-items: center;
+  }
+
+  .leftnavbar__item .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+  
+    position: absolute;
+    left: 10px;
+  
+  }
+
+  .leftnavbar__item .icon-box > img{
+    height: 19.2px;
+  
+  }
+  .icon-box_arrow > img {
+    height: auto;
+    width: 16.8px;
+  }
+
+
+}
+
+
+
