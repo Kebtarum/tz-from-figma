@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/tz-from-figma/static/css/main.b02d6403.chunk.css",
+    "main.js": "/tz-from-figma/static/js/main.77465888.chunk.js",
+    "main.js.map": "/tz-from-figma/static/js/main.77465888.chunk.js.map",
+    "runtime-main.js": "/tz-from-figma/static/js/runtime-main.9546bbf9.js",
+    "runtime-main.js.map": "/tz-from-figma/static/js/runtime-main.9546bbf9.js.map",
+    "static/js/2.18095707.chunk.js": "/tz-from-figma/static/js/2.18095707.chunk.js",
+    "static/js/2.18095707.chunk.js.map": "/tz-from-figma/static/js/2.18095707.chunk.js.map",
+    "index.html": "/tz-from-figma/index.html",
+    "precache-manifest.ed8dadce3f2c252d85433d52424097ea.js": "/tz-from-figma/precache-manifest.ed8dadce3f2c252d85433d52424097ea.js",
+    "service-worker.js": "/tz-from-figma/service-worker.js",
+    "static/css/main.b02d6403.chunk.css.map": "/tz-from-figma/static/css/main.b02d6403.chunk.css.map",
+    "static/js/2.18095707.chunk.js.LICENSE.txt": "/tz-from-figma/static/js/2.18095707.chunk.js.LICENSE.txt",
+    "static/media/AddTask.svg": "/tz-from-figma/static/media/AddTask.d6a89307.svg",
+    "static/media/Arrow.svg": "/tz-from-figma/static/media/Arrow.78f9a1bb.svg",
+    "static/media/Back.svg": "/tz-from-figma/static/media/Back.6b897fa8.svg",
+    "static/media/Burger.svg": "/tz-from-figma/static/media/Burger.fb1b193e.svg",
+    "static/media/Calendar.svg": "/tz-from-figma/static/media/Calendar.6445bcaf.svg",
+    "static/media/CloseBlack.svg": "/tz-from-figma/static/media/CloseBlack.5e8a7496.svg",
+    "static/media/CloseIcon.svg": "/tz-from-figma/static/media/CloseIcon.5e50c294.svg",
+    "static/media/Edit.svg": "/tz-from-figma/static/media/Edit.bf95915a.svg",
+    "static/media/Ellipse.svg": "/tz-from-figma/static/media/Ellipse.111e7f5f.svg",
+    "static/media/Exclude.svg": "/tz-from-figma/static/media/Exclude.1d219da3.svg",
+    "static/media/GreenRect.svg": "/tz-from-figma/static/media/GreenRect.7e2da888.svg",
+    "static/media/Oval.svg": "/tz-from-figma/static/media/Oval.f4e55fe8.svg",
+    "static/media/RedRect.svg": "/tz-from-figma/static/media/RedRect.8394be49.svg",
+    "static/media/Trash.svg": "/tz-from-figma/static/media/Trash.1e0534b1.svg",
+    "static/media/YellowRect.svg": "/tz-from-figma/static/media/YellowRect.07bbfc02.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9546bbf9.js",
+    "static/js/2.18095707.chunk.js",
+    "static/css/main.b02d6403.chunk.css",
+    "static/js/main.77465888.chunk.js"
+  ]
+}
